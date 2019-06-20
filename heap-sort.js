@@ -81,8 +81,4 @@ function heapSort(array) {
     }
 }
 
-const a = [7, 6, 1, 3, 9, 2, 4, 8, 5];
-
-console.log(a);
-heapSort(a);
-console.log(a);
+module.exports = heapSort;

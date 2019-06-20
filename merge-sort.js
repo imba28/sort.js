@@ -41,7 +41,5 @@ function mergeSort(array, left = 0, right = array.length - 1) {
     }
 }
 
-const a = [7, 6, 1, 3, 9, 2, 4, 8, 5];
-console.log(a);
-mergeSort(a);
-console.log(a);
+
+module.exports = mergeSort;

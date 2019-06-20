@@ -17,7 +17,5 @@ function selectionSort(array) {
     }
 }
 
-const a = [7, 6, 1, 3, 9, 2, 4, 8, 5];
-console.log(a);
-selectionSort(a);
-console.log(a);
+
+module.exports = selectionSort;
